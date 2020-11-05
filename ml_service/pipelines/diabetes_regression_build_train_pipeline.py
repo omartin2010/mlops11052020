@@ -172,6 +172,7 @@ def main():
         description="Model training/retraining pipeline",
         version=e.build_id,
     )
+    print(f'This is a great demo!')
     print(f"Published pipeline: {published_pipeline.name}")
     print(f"for build {published_pipeline.version}")
 
